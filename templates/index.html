@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Studio Landing Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="/" class="logo">Creative Studio</a>
+                <ul class="nav-links">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="hero">
+            <div class="container hero-content">
+                <span class="eyebrow">Modern Creative Agency</span>
+                <h1>Creative Studio</h1>
+                <p>We build modern digital experiences</p>
+                <a href="#about" class="btn-primary">Start Project</a>
+            </div>
+        </section>
+
+        <section class="features" id="services">
+            <div class="container">
+                <div class="section-heading">
+                    <h2>What We Do</h2>
+                    <p>Thoughtful strategy, elegant design, and reliable development for ambitious brands.</p>
+                </div>
+
+                <div class="card-grid">
+                    <div class="feature-card">
+                        <div class="icon">01</div>
+                        <h3>Web Design</h3>
+                        <p>Clean, user-focused interfaces that elevate your brand and improve engagement.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="icon">02</div>
+                        <h3>Branding</h3>
+                        <p>Distinct visual identity systems that help your business stand out with confidence.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="icon">03</div>
+                        <h3>Development</h3>
+                        <p>Fast, responsive, and scalable digital products built with modern technologies.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="container about-content">
+                <div class="about-text">
+                    <span class="eyebrow">About Us</span>
+                    <h2>We create digital experiences with clarity and purpose.</h2>
+                    <p>
+                        We are a creative studio focused on crafting modern websites, memorable brand identities,
+                        and polished digital products. Our approach combines design thinking, technical precision,
+                        and a strong attention to detail to help ideas grow into meaningful experiences.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
